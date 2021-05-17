@@ -3,8 +3,10 @@ import React from 'react';
 const Profile = () => {
   return (
     <div>
-      <h2>Profile</h2>
-      <p>In this component will be the profile content</p>
+      <h2 className="Profile-title">Profile</h2>
+      <p className="Profile-desc">
+        In this component will be the profile content
+      </p>
     </div>
   );
 };
