@@ -19,10 +19,10 @@ const App = () => {
       <Experience />
       <Academic />
       <Skills />
-      <Interest />
-      <Languages />
+      {/* <Interest />
+      <Languages /> */}
     </>
-  )
+  );
 };
 
 export default App;
